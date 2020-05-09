@@ -1,15 +1,13 @@
 {
-  "name": "react",
+  "name": "restaurant-management-system-with-redux-in-react-part-1",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "Exercise of Redux in React",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
+    "react-redux": "7.2.0",
     "react-scripts": "3.0.1",
     "redux": "4.0.5"
   },
