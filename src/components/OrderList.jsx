@@ -7,12 +7,13 @@ const OrderList = props => {
   };
 
   if (props.selectedTable === null) return null;
-
+  
+  // fixed key in div
   return (
     <div style={style}>
       {props.items.map((items, i) => {
         return (
-          <div>
+          <div key={i}>
             <button onClick={() => props.onDelete(props.id, i)}>x</button>
             &nbsp; {items.name} | ${items.price}
           </div>
