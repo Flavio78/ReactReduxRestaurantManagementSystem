@@ -8,6 +8,7 @@ const OrderList = props => {
 
   if (props.selectedTable === null) return null;
 
+  // fixed key in div
   return (
     <div style={style}>
       {props.items.map((items, i) => {
